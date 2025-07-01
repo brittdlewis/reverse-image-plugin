@@ -1,0 +1,27 @@
+openapi: 3.0.1
+info:
+  title: Reverse Image Search Plugin
+  version: 1.0.0
+servers:
+  - url: https://eoxo1evfnyii5qf.m.pipedream.net
+paths:
+  "/":
+    post:
+      operationId: reverseImageSearch
+      summary: Perform reverse image search via Pipedream
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                claim:
+                  type: string
+                source:
+                  type: string
+              required:
+                - claim
+      responses:
+        "200":
+          description: JSON response from Pipedream
