@@ -7,10 +7,10 @@
   "auth": { "type": "none" },
   "api": {
     "type": "openapi",
-    "url": "https://<YOUR_USERNAME>.github.io/reverse-image-plugin/openapi.yaml",
+    "url": "https://<brittdlewis>.github.io/reverse-image-plugin/openapi.yaml",
     "is_user_authenticated": false
   },
-  "logo_url": "https://<YOUR_USERNAME>.github.io/reverse-image-plugin/logo.png",
+  "logo_url": "https://<Ybrittdlewis>.github.io/reverse-image-plugin/logo.png",
   "contact_email": "you@example.com",
-  "legal_info_url": "https://<YOUR_USERNAME>.github.io/reverse-image-plugin/legal.html"
+  "legal_info_url": "https://<brittdlewis>.github.io/reverse-image-plugin/legal.html"
 }
