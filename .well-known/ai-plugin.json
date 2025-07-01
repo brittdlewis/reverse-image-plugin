@@ -1,0 +1,16 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Reverse Image Search",
+  "name_for_model": "reverseImageSearch",
+  "description_for_human": "Searches the internet for where an image appears online.",
+  "description_for_model": "Given an image URL, returns matches from reverse image search via Pipedream.",
+  "auth": { "type": "none" },
+  "api": {
+    "type": "openapi",
+    "url": "https://<YOUR_USERNAME>.github.io/reverse-image-plugin/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://<YOUR_USERNAME>.github.io/reverse-image-plugin/logo.png",
+  "contact_email": "you@example.com",
+  "legal_info_url": "https://<YOUR_USERNAME>.github.io/reverse-image-plugin/legal.html"
+}
