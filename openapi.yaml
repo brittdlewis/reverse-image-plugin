@@ -25,3 +25,5 @@ paths:
       responses:
         "200":
           description: JSON response from Pipedream
+# rebuild trigger
+trigger rebuild for GitHub Pages
